@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Contact</title>
+		
+		<link rel="shortcut icon" href="img/favicon.ico">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="misc/Nahum Piña - Resume.pdf" target="_blank">Resume</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<img src="img/Logo.svg" class="logo" height="125px">
+			<div id="nav-socials">
+				<a href="https://github.com/nahumpina04" target="_blank"><img src="img/github.svg" height="30" width="30"></a>
+				<a href="https://www.linkedin.com/in/nahumpina/" target="_blank"><img src="img/linkedin.svg" height="30" width="30"></a>
+				<a href="https://discordapp.com/users/nahumpina16#5468" target="_blank"><img src="img/discord.svg" height="30" width="30"></a>
+				<a href="https://instagram.com/nahumpina16?igshid=YmMyMTA2M2Y=" target="_blank"><img src="img/instagram.svg" height="30" width="30"></a>
+				<a href="https://open.spotify.com/user/knknktmyi7eo7sixmf73fsk7n?si=b9ee3f4496b647e5" target="_blank"><img src="img/spotify.svg" height="30" width="30"></a>
+			</div>
+		</header>
+		<div class="contact">
+			<h2>Connect with me!</h2>
+			<ul id="contact">
+				<li><b>Email: </b><a href="mailto:nahum16pina@gmail.com">nahum16pina@gmail.com</a></li>
+				<li><b>Phone: </b><a href="tel:9513506440">(951)350-6440</a></li>
+				<li><b>Socials: </b></li>
+				<ul id="contact-socials">
+					<li><a href="https://github.com/nahumpina04" target="_blank"><img src="img/github.svg" height="30" width="30">GitHub</a></li>
+					<li><a href="https://www.linkedin.com/in/nahumpina/" target="_blank"><img src="img/linkedin.svg" height="30" width="30">LinkedIn</a></li>
+					<li><a href="https://discordapp.com/users/nahumpina16#5468" target="_blank"><img src="img/discord.svg" height="30" width="30">Discord</a></li>
+					<li><a href="https://instagram.com/nahumpina16?igshid=YmMyMTA2M2Y=" target="_blank"><img src="img/instagram.svg" height="30" width="30">Instagram</a></li>
+					<li><a href="https://open.spotify.com/user/knknktmyi7eo7sixmf73fsk7n?si=b9ee3f4496b647e5" target="_blank"><img src="img/spotify.svg" height="30" width="30">Spotify</a></li>	
+				</ul>
+			</ul>
+		</div>
+
+		<div id="form">
+			<h2>Send me a message!</h2>
+				<form action="send-message.php" method="POST">
+					<label for="name"></label>
+					<input type="text" id="name" name="name" placeholder="Enter your full name" required>
+					<label for="email"></label>
+					<input type="email" id="email" name="email" placeholder="Enter your email" required>
+					<label for="message"></label>
+					<textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+					<br>
+					<input type="submit" value="Send">
+				</form>
+			</div>
+
+		<footer>
+			<img src="img/Icon.svg" class="icon" height="45px" width="45px">
+			<p>
+				<script>
+					var today = new Date();
+					document.write("&copy;&nbsp; Nahum Piña ");
+					document.write(today.getFullYear());
+				</script>
+			</p>
+		</footer>
+	</body>
+</html>
