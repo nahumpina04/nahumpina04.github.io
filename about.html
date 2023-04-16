@@ -1,93 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>About</title>
-        
-    <link rel="shortcut icon" href="img/favicon.ico">
-	
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="misc/Nahum Piña - Resume.pdf" target="_blank">Resume</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-		<img src="img/Logo.svg" class="logo" height="125px">
-		<div id="nav-socials">
-			<a href="https://github.com/nahumpina04" target="_blank"><img src="img/github.svg" height="30" width="30"></a>
-			<a href="https://www.linkedin.com/in/nahumpina/" target="_blank"><img src="img/linkedin.svg" height="30" width="30"></a>
-			<a href="https://discordapp.com/users/nahumpina16#5468" target="_blank"><img src="img/discord.svg" height="30" width="30"></a>
-			<a href="https://instagram.com/nahumpina16?igshid=YmMyMTA2M2Y=" target="_blank"><img src="img/instagram.svg" height="30" width="30"></a>
-			<a href="https://open.spotify.com/user/knknktmyi7eo7sixmf73fsk7n?si=b9ee3f4496b647e5" target="_blank"><img src="img/spotify.svg" height="30" width="30"></a>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!--Page Title-->
+		<title>About</title>
+		
+		<!--Favicon-->
+		<link rel="shortcut icon" href="img/favicon.ico">
+		
+		<!--Fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+		
+		<!--Stylesheet-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="img/resume.pdf" target="_blank">Resume</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<img src="img/Logo.svg" class="logo" height="125px">
+			<div id="nav-socials">
+				<a href="https://github.com/nahumpina04" target="_blank"><img src="img/github.svg" height="30" width="30"></a>
+				<a href="https://www.linkedin.com/in/nahumpina/" target="_blank"><img src="img/linkedin.svg" height="30" width="30"></a>
+				<a href="https://discordapp.com/users/nahumpina16#5468" target="_blank"><img src="img/discord.svg" height="30" width="30"></a>
+				<a href="https://instagram.com/nahumpina16?igshid=YmMyMTA2M2Y=" target="_blank"><img src="img/instagram.svg" height="30" width="30"></a>
+				<a href="https://open.spotify.com/user/knknktmyi7eo7sixmf73fsk7n?si=b9ee3f4496b647e5" target="_blank"><img src="img/spotify.svg" height="30" width="30"></a>
+			</div>
+		</header>
+		<div class="info">
+			<h1>So, you want to learn more about me?</h1>
+			<img src="img/me-pic1.jpg" id="pic1" height="400px" widht="300px">
+			<p>
+				I am Nahum Piña, a Mexican-American Computer Science student at CBU. Some things about me are:
+				<ul id="quick-facts">
+					<li>I've lived in the Hemet and San Jacinto area my entire life</li>
+					<li>I enjoy watching soccer and football &#40;my favorite teams are Club America and the Steelers&#41;</li>
+					<li>I am a first generation student</li>
+					<li>I travel to Mexico at least once a year</li>
+				</ul>
+			</p>
+			<img src="img/me-pic2.jpg" id="pic2" height="400px" widht="300px">
+			<p>
+				I attended Hemet High School and graduated as class salutatorian in 2022. Once I graduated, I began attending California Baptist University,
+				where I attend now. My passion for computer science came from my dad, who always worked with computers when I was young. As I grew up, I would
+				use technology and learn how to use it. It was then that I decided that I wanted to work in a related field. I choose CBU because of the faith
+				integration within the classes as well as the academic rigor this place provides. I plan on graduating spring 2025 and work as a back-end devloper
+				or a cyber security analyst.
+			</p>
+			<h2>Projects</h2>
+			<video width="360" height="640" autoplay loop muted>
+				<source src="img/robot-video.mp4" type=video/mp4>
+				Your browser does not support the video tag
+			</video>
+			<p>
+				I've been involved in several projects. At the College of Engineering, I've been able to create robots,
+				programming them using block code and C++. A notable project is the Biofeedback Glove. In this project,
+				I was given a robotic arm and tasked with creating a glove, circuit, and program to interconnect all of the
+				tasks and make the given arm move, repsoding to the glove. In my group, I was tasked to complete the programming.
+				I created an simple program that would begin with a calibration phase to adapt the movements as close to the 
+				user's hand as possible. The program would then continuously read changes in the glove and output them to the arm.
+				Due to malfuntioning sensors, the arm didn't work adequately. However, when testing with fully functioning sensors,
+				the arm was able to move accordingly.
+			</p>
+			<p>
+				Other projects that are currently in the works are:
+				<ul id="projects">
+					<li>Loteria Now
+						<p>- An addition to the classic Mexican board game that reads the cards to players, allowing everyone to play</p>
+					</li>
+					<li>XML Bible Viewer
+						<p>- Simple web interface that allows users to input their XML bibles, or provided bibles, and read</p>
+					</li>
+					<li>
+						Websites<p>- Hand-coded websites, like this one, made for personal and business use</p>
+					</li>
+				</ul>
+			</p>
+			<p>Stay tuned for updates and more information!</p>
 		</div>
-	</header>
-	<div class="info">
-	    <h1>So, you want to learn more about me?</h1>
-		<img src="img/me-pic1.jpg" id="pic1" height="400px" widht="300px">
-		<p>
-			I am Nahum Piña, a Mexican-American Computer Science student at CBU. I've lived in the Hemet and San Jacinto area my entire life. I attended Hemet High School and graduated as class salutatorian in 2022.
-			Once I graduated, I began attending California Baptist University, where I attend now. My passion for computer science came from my dad,
-			who always worked with computers when I was young. As I grew up, I would use technology and learn how to use it. It was then that I decided
-			that I wanted to work in a related field. I choose CBU because of the faith integration within the classes as well as the academic rigor this
-			place provides. I plan on graduating spring 2025 and work as a back-end devloper or a cyber security analyst. 
-		</p>
-		<img src="img/me-pic2.jpg" id="pic2" height="400px" widht="300px">
-		<p>
-			I am Nahum Piña, a Mexican-American Computer Science student at CBU. I've lived in the Hemet and San Jacinto area my entire life. I attended Hemet High School and graduated as class salutatorian in 2022.
-			Once I graduated, I began attending California Baptist University, where I attend now. My passion for computer science came from my dad,
-			who always worked with computers when I was young. As I grew up, I would use technology and learn how to use it. It was then that I decided
-			that I wanted to work in a related field. I choose CBU because of the faith integration within the classes as well as the academic rigor this
-			place provides. I plan on graduating spring 2025 and work as a back-end devloper or a cyber security analyst. 
-		</p>
-		<h2>Projects</h2>
-		<p>
-			I've been involved in several projects. At the College of Engineering, I've been able to create robots,
-			programming them using block code and C++. A notable project is the Biofeedback Glove. In this project,
-			I was given a robotic arm and tasked with creating a glove, circuit, and program to interconnect all of the
-			tasks and make the given arm move, repsoding to the glove. In my group, I was tasked to complete the programming.
-			I created an simple program that would begin with a calibration phase to adapt the movements as close to the 
-			user's hand as possible. The program would then continuously read changes in the glove and output them to the arm.
-			Due to malfuntioning sensors, the arm didn't work adequately. However, when testing with fully functioning sensors,
-			the arm was able to move accordingly.
-		</p>
-		<p>
-			Other projects that are currently in the works are:
-			<ul id="projects">
-				<li>Loteria Now
-					<p>An addition to the classic Mexican board game that would read the cards to players, allowing everyone to play</p>
-				</li>
-				<li>XML Bible Viewer
-					<p>Simple web interface that allows users to input their XML bibles, or provided bibles, and read</p>
-				</li>
-				<li>
-					Websites<p>Hand-coded websites, like this one, made for personal and business use</p>
-				</li>
-			</ul>
-		</p>
-	</div>
-	<footer>
-		<img src="img/Icon.svg" class="icon" height="45px" width="45px">
-		<p>
-			<script>
-				var today = new Date();
-				document.write("&copy;&nbsp; Nahum Piña ");
-				document.write(today.getFullYear());
-			</script>
-		</p>
-	</footer>
-</body>
+		<footer>
+			<img src="img/Icon.svg" class="icon" height="45px" width="45px">
+			<p>
+				<script>
+					var today = new Date();
+					document.write("&copy;&nbsp; Nahum Piña ");
+					document.write(today.getFullYear());
+				</script>
+			</p>
+		</footer>
+	</body>
 </html>
 

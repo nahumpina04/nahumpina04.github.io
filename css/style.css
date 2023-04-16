@@ -59,11 +59,9 @@ nav ul li a {
 	font-size: 20px;
 }
 
-
 header #nav-socials a{
 	margin: 10px;
 }
-
 
 /* Main Styles */
 .about {
@@ -72,6 +70,7 @@ header #nav-socials a{
 	background-image: url('../img/orange_back.jpg');
 	color: white;
 	padding: 5em;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -99,35 +98,74 @@ header #nav-socials a{
 	font-size: 16px;
 	border-radius: 5px;
 	margin-top: 10px;
+	position: relative;
+	transition: background-color 0.2s ease-in-out;
+	z-index: 1;
 }
 
 .button:hover {
-	background-color: #d08d3a;
+	border: 0.5px solid white;
+	color: white;
+	background-color: transparent;
 }
 
 .info{
 	grid-column: 2 / 12;
-	grid-row: 3/12;
+	grid-row: 3 / 13;
 	padding-top: 40px;
 }
+
+.info h1, h2, p{
+	margin: 10px 0;
+}
+
+#projects li{
+	font-weight: bold;
+	font-size: 24px;
+	padding-left: 1em;
+}
+
+#projects li p{
+	padding-left: 2em;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+#quick-facts li{
+	list-style-type: square;
+	margin-left: 2.5em;
+	font-size: 24px;
+}
+
 #pic1{
 	float: right;
 	border-radius: 5%;
-	margin-left: 25px;
+	margin: 0 0 25px 20px;
+	box-shadow: 12px 12px 2px 1px #FFA93D;
 }
 
 #pic2{
 	float: left;
 	border-radius: 5%;
-	margin-right: 25px;
+	margin: 0 35px 25px 0;
+	box-shadow: 12px 12px 2px 1px #FFA93D;
+}
+
+video{
+	float: right;
+	border-radius: 5%;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	box-shadow: 12px 12px 2px 1px #FFA93D;
 }
 
 #title-pic{
 	float: right;
 	margin-left: 25px;
+	border-radius: 50%;
 }
 
-/*Form styles*/
+/*Form and Contact styles*/
 #form {
 	grid-column: 7 / 12;
 	grid-row: 3 / 12;
@@ -146,6 +184,7 @@ header #nav-socials a{
 #form input,
 #form textarea {
 	padding: 10px;
+	font-family: 'Raleway', sans-serif;
 	margin-bottom:25px;
 	font-size: 16px;
 	border-radius: 5px;
@@ -169,11 +208,13 @@ header #nav-socials a{
 	background-color: #FFA93D;
 	color: white;
 	cursor: pointer;
-	transition: background-color 0.2s ease;
+	transition: background-color 0.4s ease-in-out;
 }
 
 #form input[type="submit"]:hover {
-	background-color: #d08d3a;
+	border: 1px solid #FFA93D;
+	color: #FFA93D;
+	background-color: white;
 }
 
 .contact{
@@ -194,7 +235,7 @@ header #nav-socials a{
 }
 
 #contact-socials li img{
-	padding-right: 5px;
+	padding-right: 15px;
 }
 
 /* Footer Styles */
